@@ -1,14 +1,21 @@
 const languages = {
   en: {
-    name: 'Vadym Liumanov',
-    jobTitle: 'Frontend Developer',
+
+    person: {
+      name: {
+        firstName: 'Vadym',
+        secondName: 'Liumanov',
+      },
+      jobTitle: 'Frontend Developer'
+    },
+
     contacts: {
       header: 'Contacts',
       list: null
     },
 
-    techScills: {
-      header: 'Tech Scills',
+    techSkills: {
+      header: 'Tech Skills',
       list: [
         {
           id: '1',
@@ -41,8 +48,8 @@ const languages = {
       ]
     },
 
-    softScills: {
-      header: 'Soft Scills',
+    softSkills: {
+      header: 'Soft Skills',
       list: [
         {
           id: '1',

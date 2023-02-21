@@ -5,13 +5,13 @@ import Profile from "./profile/Profile"
 
 // import "./styles.css"
 
-const MainBlock = () => {
+const MainBlock = ({ profile, experience, education }) => {
   return (
     <div className="main-block column-container">
-      <Profile />
+      <Profile profile={profile} />
       <section className="exp-and-edu-block">
-        <Experience />
-        <Education />
+        <Experience experience={experience} />
+        <Education education={education} />
       </section>
     </div>
   )

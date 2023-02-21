@@ -193,16 +193,16 @@ body {
     text-decoration: underline;
 }
 
-.about__scills-list {
+.about__skills-list {
     margin-bottom: 3em;
     /* margin-left: 20px; */
 }
 
-ol.about__scills-list {
+ol.about__skills-list {
     list-style-position: inside;
 }
 
-.about__scills-list-item {
+.about__skills-list-item {
     color: var(--black);
     font-weight: 500;
     font-size: 1.1em;

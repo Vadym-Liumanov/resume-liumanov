@@ -1,41 +1,46 @@
 import React from "react"
 
-import { email, phone } from './../img/icons'
+import { email as emailIcon, phone as phoneIcon } from './../img/icons'
 
 // import "./styles.css"
 
-const About = () => {
+const About = ({ contacts, techSkills, softSkills }) => {
+
+  const techSkillsList = techSkills.list.map((skill) => {
+    return (
+      <li key={skill.id} className="about__skills-list-item">{skill.skillName}</li>
+    )
+  })
+
+  const softSkillsList = softSkills.list.map((skill) => {
+    return (
+      <li key={skill.id} className="about__skills-list-item">{skill.skillName}</li>
+    )
+  })
+
   return (
     <section className="about">
       <div className="about__contacts">
-        <h4 className="about__header accented-header">Contacts</h4>
+        <h4 className="about__header accented-header">{contacts.header}</h4>
         <div className="about__contacts-link">
-          <img src={phone} alt="tel" />
+          <img src={phoneIcon} alt="tel" />
           <a href="tel:+380951234567">+38 095 123 45 67</a>
         </div>
         <div className="about__contacts-link">
-          <img src={email} alt="email" />
+          <img src={emailIcon} alt="email" />
           <a href="mailto:developer@gmail.com">developer@gmail.com</a>
         </div>
       </div>
-      <div className="about__scills">
-        <h4 className="about__header accented-header">Tech Scills</h4>
-        <ul className="about__scills-list">
-          <li className="about__scills-list-item">HTML5</li>
-          <li className="about__scills-list-item">CSS</li>
-          <li className="about__scills-list-item">GIT</li>
-          <li className="about__scills-list-item">WebPack</li>
-          <li className="about__scills-list-item">JS</li>
-          <li className="about__scills-list-item">React.js</li>
+      <div className="about__skills">
+        <h4 className="about__header accented-header">{techSkills.header}</h4>
+        <ul className="about__skills-list">
+          {techSkillsList}
         </ul>
       </div>
-      <div className="about__scills">
-        <h4 className="about__header accented-header">Soft Scills</h4>
-        <ol className="about__scills-list">
-          <li className="about__scills-list-item">Scrum</li>
-          <li className="about__scills-list-item">Agile</li>
-          <li className="about__scills-list-item">GTD</li>
-          <li className="about__scills-list-item">Teamwork</li>
+      <div className="about__skills">
+        <h4 className="about__header accented-header">{softSkills.header}</h4>
+        <ol className="about__skills-list">
+          {softSkillsList}
         </ol>
       </div>
     </section>

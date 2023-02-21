@@ -1,0 +1,5 @@
+export {default as email} from "./email.svg"
+export {default as facebook} from "./facebook.svg"
+export {default as instagram} from "./instagram.svg"
+export {default as phone} from "./phone.svg"
+export {default as twitter} from "./twitter.svg"

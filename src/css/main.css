@@ -1,0 +1,387 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+/* Common */
+
+:root {
+    /* Difinition of color names */
+    --white: #fff;
+    --black: #171718;
+    --lightblack: #4b6f80;
+    --orange: #FFAA01;
+    --grey: #e4e4e4;
+    --lightgrey: #f6f8f9;
+
+    /* Text colors */
+    --primary-text-color: var(--black);
+    --secondary-text-color: var(--lightblack);
+    --accent: var(--orange);
+
+    /* Text sizes */
+    --root-font-size: 14px;
+
+    /* Background colors */
+    --page-bg: var(--grey);
+    --content-bg-light: var(--white);
+    --content-bg-grey: var(--lightgrey);
+
+    /* Shadows */
+    --box-shadow: 0px 4px 74px rgba(69, 69, 69, 0.25);
+}
+
+body {
+
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-size: var(--root-font-size);
+    line-height: 1.2;
+
+    color: var(--primary-text-color);
+    background-color: var(--page-bg);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    margin: 0px auto;
+    padding: 60px 20px 20px;
+    max-width: 438px;
+
+    background-color: var(--page-bg);
+}
+
+.column-container {
+    border-radius: 30px;
+    background-color: var(--content-bg-grey);
+}
+
+.primary-header {
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.accented-header {
+    font-weight: 700;
+    font-size: 1.7em;
+    color: var(--accent);
+}
+
+.common-text {
+    font-size: 1em;
+    font-weight: normal;
+    color: var(--lightblack);
+    line-height: 1.7;
+    text-align: justify;
+}
+
+
+/* Abstract images */
+
+.abstract-image {
+    position: absolute;
+    display: none;
+}
+
+.right-image {
+    width: 400px;
+    height: 400px;
+
+    right: -80px;
+    top: -50px;
+}
+
+.left-image {
+    width: 350px;
+    height: 350px;
+
+    left: -20px;
+    bottom: -60px;
+}
+
+/* Person */
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    position: relative;
+
+    height: 25em;
+    padding: 0 20px 30px;
+
+    background-color: var(--content-bg-light);
+    border-radius: 30px 30px 0 0;
+}
+
+.person__photo {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: -30px;
+    border-radius: 50px;
+}
+
+.person__header {
+    font-weight: 400;
+    margin-bottom: 1em;
+    letter-spacing: 0.5px;
+}
+
+.person__header span {
+    font-weight: 500;
+}
+
+.person__label {
+    font-weight: 500;
+    font-size: 1.2em;
+    background-color: var(--lightgrey);
+    border-radius: 75px;
+    padding: 4px 20px;
+    margin-bottom: 2em;
+}
+
+.person__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.person__social img {
+    width: 30px;
+    height: 30px;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px 60px;
+    background-color: var(--lightgrey);
+
+    border-radius: 0 0 30px 30px;
+}
+
+.about__header {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about__contacts-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.about__contacts-link:last-child {
+    margin-bottom: 3em;
+}
+
+.about__contacts-link a {
+    color: var(--black);
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.about__contacts-link a:hover {
+    text-decoration: underline;
+}
+
+.about__scills-list {
+    margin-bottom: 3em;
+    /* margin-left: 20px; */
+}
+
+ol.about__scills-list {
+    list-style-position: inside;
+}
+
+.about__scills-list-item {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+/* Profile */
+
+.profile {
+    background-color: var(--white);
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px;
+}
+
+.profile__header::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: var(--accent);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.profile__text {
+    margin-top: 1.2em;
+}
+
+/* Experience */
+
+.exp-and-edu-block {
+    background-color: var(--content-bg-grey);
+    border-radius: 0px 0px 30px 30px;
+    padding: 30px;
+}
+
+.experience__header {
+    margin-bottom: 30px;
+}
+
+.experience__list {
+    list-style: none;
+}
+
+.experience__list-item {
+    margin-bottom: 40px;
+}
+
+.experience__subheader {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.experience__subheader span {
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.experience__text {
+    font-weight: 400;
+}
+
+.experience__pre-text {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* Invisible block for low resolutions only */
+
+.invisible {
+    display: none;
+
+    padding: 30px;
+    text-align: center;
+}
+
+/* Media queries */
+
+/* Not supported resolutions */
+
+@media (max-width: 319px) {
+    .invisible {
+        display: block;
+    }
+
+    .container {
+        display: none;
+    }
+}
+
+/* above 478px */
+
+@media (min-width: 479px) {
+    :root {
+        --root-font-size: 15px;
+    }
+
+    .person__photo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* above 767px */
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: center;
+
+        padding: 60px 30px 60px;
+        max-width: 900px;
+    }
+
+    .about {
+        padding: 30px 80px;
+    }
+
+    .aside-block {
+        flex: 1 1 40%;
+    }
+
+    .main-block {
+        flex: 1 1 50%;
+    }
+
+}
+
+/* above 991px */
+
+@media (min-width: 992px) {
+    :root {
+        --root-font-size: 16px;
+    }
+
+    body {
+        background-color: var(--white);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        justify-content: center;
+
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+
+        padding: 100px 80px 80px;
+        max-width: 1200px;
+    }
+
+    .column-container {
+        z-index: 10;
+    }
+
+    .abstract-image {
+        display: block;
+    }
+
+    .about {
+        padding: 30px 60px;
+    }
+
+    .aside-block {
+        min-width: 370px;
+        flex: unset;
+    }
+
+    .main-block {
+        max-width: 740px;
+        flex: unset;
+    }
+
+    .person__photo {
+        width: 220px;
+        height: 220px;
+    }
+}

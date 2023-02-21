@@ -1,10 +1,13 @@
+import Main from "./pages/main/Main"
+
+import "./css/main.css"
+
+
 function App() {
   return (
-      <div>
-        <h1>
-          Hello world
-        </h1>
-      </div>
+    <>
+      <Main />
+    </>
   )
 }
 

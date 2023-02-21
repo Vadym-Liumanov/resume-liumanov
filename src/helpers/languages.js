@@ -1,4 +1,4 @@
-const data = {
+const languages = {
   en: {
     name: 'Vadym Liumanov',
     jobTitle: 'Front-End Developer',
@@ -76,4 +76,4 @@ const data = {
   ru: null
 }
 
-export default data
+export default languages

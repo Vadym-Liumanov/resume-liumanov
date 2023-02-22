@@ -11,9 +11,15 @@ const Experience = ({ experience }) => {
       <li className="experience__list-item" key={item.id}>
         <h3 className="experience__subheader">{`${item.id}. ${item['itemHeader']['position']}`} | <span>{item['itemHeader']['company']}</span></h3>
         <p className="experience__pre-text">{item.itemSubHeader}</p>
-        <p className="experience__text common-text">
-          {item.text}
-        </p>
+
+        {Object.keys(item.text).map((p) => {
+          return (
+            <p className="experience__text common-text" key={p}>
+              {item.text[p]}
+            </p>
+          )
+        })}
+
       </li>
     )
   })

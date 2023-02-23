@@ -1,22 +1,15 @@
 import React from "react"
 
+import { skillsOutput } from "../../../utils/renderTextArr"
+
 import { email as emailIcon, phone as phoneIcon } from './../img/icons'
 
 // import "./styles.css"
 
 const About = ({ contacts, techSkills, softSkills }) => {
 
-  const techSkillsList = techSkills.list.map((skill) => {
-    return (
-      <li key={skill.id} className="about__skills-list-item">{skill.skillName}</li>
-    )
-  })
-
-  const softSkillsList = softSkills.list.map((skill) => {
-    return (
-      <li key={skill.id} className="about__skills-list-item">{skill.skillName}</li>
-    )
-  })
+  const techSkillsList = skillsOutput(techSkills.list)
+  const softSkillsList = skillsOutput(softSkills.list)
 
   return (
     <section className="about">

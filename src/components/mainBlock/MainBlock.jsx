@@ -11,7 +11,7 @@ const MainBlock = ({ profile, experience, education }) => {
       <Profile profile={profile} />
       <section className="exp-and-edu-block">
         <Experience experience={experience} />
-        <Education education={education} />
+        {/* <Education education={education} /> */}
       </section>
     </div>
   )

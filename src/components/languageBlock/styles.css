@@ -1,0 +1,33 @@
+.language-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--lightblack);
+}
+
+.language-btn__en,
+.language-btn__ru {
+  font-weight: 500;
+  position: relative;
+}
+
+.language-btn__en::after,
+.language-btn__ru::after {
+  content: "";
+  display: block;
+  position: absolute;
+
+  width: 1.5em;
+  height: 0.2em;
+
+  background-color: var(--accent);
+  border-radius: 10em;
+}
+
+.language-btn__en::after {
+  left: 0.8em;
+}
+
+.language-btn__ru::after {
+  right: 0.9em;
+}

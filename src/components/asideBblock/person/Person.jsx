@@ -1,6 +1,6 @@
 import React from "react"
 
-import personPhoto from './../img/photo.png'
+import personPhoto from './../img/photo.jpg'
 import { facebook, instagram, twitter } from './../img/icons'
 
 // import "./styles.css"

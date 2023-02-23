@@ -43,13 +43,26 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    
+    /* display: flex;
+    flex-direction: column;
+    row-gap: 10px; */
 
     margin: 0px auto;
-    padding: 60px 20px 20px;
+    padding: 10px 20px 20px;
     max-width: 438px;
 
     background-color: var(--page-bg);
+}
+
+.row-wrapper.top-row {
+    margin-bottom: 3em;
+}
+
+.row-wrapper.middle-row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
 .column-container {
@@ -72,8 +85,9 @@ body {
     font-size: 1em;
     font-weight: normal;
     color: var(--lightblack);
-    line-height: 1.7;
+    line-height: 1.3;
     text-align: justify;
+    margin-bottom: 0.9em;
 }
 
 
@@ -206,7 +220,7 @@ ol.about__skills-list {
     color: var(--black);
     font-weight: 500;
     font-size: 1.1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
 }
 
 /* Profile */
@@ -227,8 +241,9 @@ ol.about__skills-list {
     margin-top: 10px;
 }
 
-.profile__text {
+.profile__text.common-text {
     margin-top: 1.2em;
+    line-height: 1.7em;
 }
 
 /* Experience */
@@ -310,13 +325,15 @@ ol.about__skills-list {
 
 @media (min-width: 768px) {
     .container {
+        padding: 20px 30px 60px;
+        max-width: 900px;
+    }
+
+    .row-wrapper.middle-row {
         display: flex;
         flex-direction: row;
         column-gap: 20px;
         justify-content: center;
-
-        padding: 60px 30px 60px;
-        max-width: 900px;
     }
 
     .about {
@@ -345,17 +362,19 @@ ol.about__skills-list {
     }
 
     .container {
-        display: flex;
-        flex-direction: row;
-        column-gap: 30px;
-        justify-content: center;
-
         position: relative;
         min-height: 100vh;
         overflow: hidden;
 
-        padding: 100px 80px 80px;
+        padding: 30px 80px 80px;
         max-width: 1200px;
+    }
+
+    .row-wrapper.middle-row {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        justify-content: center;
     }
 
     .column-container {

@@ -10,7 +10,7 @@ const Person = ({ person }) => {
 
   return (
     <section className="person">
-      <img className="person__photo" src={personPhoto} alt="photo" />
+      <img className="person__photo" src={personPhoto} alt="frontend developer" />
       <h3 className="person__header primary-header">{name.firstName} <span>{name.secondName}</span></h3>
       <span className="person__label">{jobTitle}</span>
       <div className="person__social">

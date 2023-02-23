@@ -105,13 +105,12 @@ const languages = {
             company: "Freelance"
           },
           itemSubHeader: "March 2022 - up now",
-          text: {
-            p1: "Creating responsive websites of various types",
-            p2: "Improvement of functionality and fixing bugs in customer's projects.",
-            p3: "Debugging, refactoring and optimizing code.",
-            p4: "Technologies: HTML5, CSS3, Scss, JavaScript, Git, React.JS, Redux, Redux-Thunk, Axios."
-          }
+          text: `Creating responsive websites of various types.\n
+            Improvement of functionality and fixing bugs in customer's projects.\n
+            Debugging, refactoring and optimizing code.\n
+            Technologies: HTML5, CSS3, Scss, JavaScript, Git, React.JS, Redux, Redux-Thunk, Axios.`
         },
+
         {
           id: "2",
           itemHeader: {
@@ -119,14 +118,12 @@ const languages = {
             company: "SysGears"
           },
           itemSubHeader: "September 2021 - February 2022",
-          text: {
-            p1: "Designing responsive and cross-browser sites of varying complexity using HTML5, CSS3 and Javascript.",
-            p2: "Development new product's client side",
-            p3: "SPA development with React.js, Redux, REST API, react-router",
-            p4: "Refactoring of  an existing code",
-            p5: "Collaboration with designers and developers",
-            p6: "Technologies: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios."
-          }
+          text: `Designing responsive and cross-browser sites of varying complexity using HTML5, CSS3 and Javascript\n
+            Development new product's client side\n
+            SPA development with React.js, Redux, REST API, react-router\n
+            Refactoring of  an existing code\n
+            Collaboration with designers and developers\n
+            Technologies: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios.`
         },
         {
           id: "3",
@@ -135,12 +132,10 @@ const languages = {
             company: "Freelance"
           },
           itemSubHeader: "October 2020 - August 2021",
-          text: {
-            p1: "Creating responsive websites of various types: online stores, landing pages, catalogs, blogs.",
-            p2: "Layout based on layouts using HTML, CSS, SCSS.",
-            p3: "Developing Applications with React.JS using class and functional components",
-            p4: "Debugging in browser"
-          }
+          text: `Creating responsive websites of various types: online stores, landing pages, catalogs, blogs\n
+            Layout based on layouts using HTML, CSS, SCSS.\n
+            Developing Applications with React.JS using class and functional components\n
+            Debugging in browser.`
         },
       ]
     },
@@ -152,19 +147,15 @@ const languages = {
           id: "1",
           itemHeader: "Frontend developer courses",
           itemSubHeader: "February 2020 - September 2020",
-          text: {
-            p1: "Mastered technologies: HTML, CSS, SCSS, BEM, adaptive, responsive and cross-browser layout, JavaScript, React.js, Redux, Redux-thunk, TypeScript, Node.js, REST API, Git, debugging in browser.",
-            p2: "Developed a multi-page social network site (non-commercial project) for communication between software developers. Technologies used: HTML/CSS; JavaScript/Typescript React.js, Redux, Redux-thunk REST API.",
-          }
+          text: `Mastered technologies: HTML, CSS, SCSS, BEM, adaptive, responsive and cross-browser layout, JavaScript, React.js, Redux, Redux-thunk, TypeScript, Node.js, REST API, Git, debugging in browser.\n
+            Developed a multi-page social network site (non-commercial project) for communication between software developers. Technologies used: HTML/CSS; JavaScript/Typescript React.js, Redux, Redux-thunk REST API.`
         },
         {
           id: "2",
           itemHeader: "Eastern Ukrainian National University",
           itemSubHeader: "September 1998 - June 2002",
-          text: {
-            p1: "Passed training at the university in the specialty of consumer electronic equipment.",
-            p2: "Received a specialist’s degree in electronics with a GPA of 4.8."
-          }
+          text: `Passed training at the university in the specialty of consumer electronic equipment.\n
+            Received a specialist’s degree in electronics with a GPA of 4.8.`
         },
       ]
     }
@@ -276,14 +267,12 @@ const languages = {
             company: "Фриланс"
           },
           itemSubHeader: "Март 2022 - настоящее время",
-          text: {
-            p1: "Создание адаптивных сайтов различных типов.",
-            p2: "Доработка функционала и исправление багов в проектах заказчика.",
-            p3: "Отладка, рефакторинг и оптимизация кода.",
-            p4: "Технологии: HTML5, CSS3, Scss, JavaScript, Git, React.JS, Redux, Redux-Thunk, Axios."
-          }
+          text: `Создание адаптивных сайтов различных типов.\n
+            Доработка функционала и исправление багов в проектах заказчика.\n
+            Отладка, рефакторинг и оптимизация кода.\n
+            Технологии: HTML5, CSS3, Scss, JavaScript, Git, React.JS, Redux, Redux-Thunk, Axios.`
         },
-        
+
         {
           id: "2",
           itemHeader: {
@@ -291,29 +280,25 @@ const languages = {
             company: "SysGears"
           },
           itemSubHeader: "Сентябрь 2021 - Февраль 2022",
-          text: {
-            p1: "Верстка адаптивных и кросбраузерных сайтов разной сложности с использованием HTML5, CSS3 и Javascript.",
-            p2: "Разработка клиентской части новых продуктов (React.js)",
-            p3: "Разработка SPA на React.js, Redux, REST API, react-router",
-            p4: "Рефакторинг существующего кода",
-            p5: "Сотрудничество с дизайнерами и разработчиками",
-            p6: "Технологии: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios."
-          }
-
+          text: `Верстка адаптивных и кросбраузерных сайтов разной сложности с использованием HTML5, CSS3 и Javascript.\n
+            Разработка клиентской части новых продуктов (React.js)\n
+            Разработка SPA на React.js, Redux, REST API, react-router\n
+            Рефакторинг существующего кода\n
+            Сотрудничество с дизайнерами и разработчиками\n
+            Технологии: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios.`
         },
+
         {
           id: "3",
           itemHeader: {
             position: "Фронтэнд разработчик",
             company: "Фриланс"
           },
-          itemSubHeader: "October 2020 - August 2021",
-          text: {
-            p1: "Создание адаптивных сайтов различных типов: интернет-магазинов, лендингов, каталогов, блогов.",
-            p2: "Верстка по макетам c использованием HTML, CSS, SCSS.",
-            p3: "Разработка приложений на React.JS с использованием классовых и функциональных компонентов",
-            p4: "Отладка в браузере"
-          }
+          itemSubHeader: "Октябрь 2020 - Август 2021",
+          text: `Создание адаптивных сайтов различных типов: интернет-магазинов, лендингов, каталогов, блогов.\n
+            Верстка по макетам c использованием HTML, CSS, SCSS.\n
+            Разработка приложений на React.JS с использованием классовых и функциональных компонентов.\n
+            Отладка в браузере.`
         },
       ]
     },
@@ -325,19 +310,15 @@ const languages = {
           id: "1",
           itemHeader: "Курсы фронтэнд разработчика",
           itemSubHeader: "Февраль 2020 - Сентябрь 2020",
-          text: {
-            p1: "Освоил технологии: HTML, CSS, SCSS, BEM, адаптивная, отзывчивая и кроссбраузерная верстка, JavaScript, React.js, Redux, Redux-thunk, TypeScript, Node.js, REST API, Git, debugging in browser.",
-            p2: "Разработал многостраничный сайт социальной сети (не коммерческий проект) для общения разработчиков программного обеспечения. Технологии: HTML/CSS; JavaScript/Typescript React.js, Redux, Redux-thunk REST API.",
-          }
+          text: `Освоил технологии: HTML, CSS, SCSS, BEM, адаптивная, отзывчивая и кроссбраузерная верстка, JavaScript, React.js, Redux, Redux-thunk, TypeScript, Node.js, REST API, Git, debugging in browser.\n
+            Разработал многостраничный сайт социальной сети (не коммерческий проект) для общения разработчиков программного обеспечения. Технологии: HTML/CSS; JavaScript/Typescript React.js, Redux, Redux-thunk REST API.`
         },
         {
           id: "2",
           itemHeader: "Восточноукраинский национальный университет",
           itemSubHeader: "Сентябрь 1998 - Июнь 2002",
-          text: {
-            p1: "Прошел обучение в университете по специальности бытовой электронной аппаратуры.",
-            p2: "Получил степень специалиста в области электроники со средним баллом 4.8."
-          }
+          text: `Прошел обучение в университете по специальности бытовой электронной аппаратуры.\n
+            Получил степень специалиста в области электроники со средним баллом 4.8.`
         },
       ]
     }

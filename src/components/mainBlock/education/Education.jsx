@@ -11,9 +11,13 @@ const Education = ({ education }) => {
       <li className="experience__list-item" key={item.id}>
         <h3 className="experience__subheader">{item.itemHeader}</h3>
         <p className="experience__pre-text">{item.itemSubHeader}</p>
-        <p className="experience__text common-text">
-          {item.text}
-        </p>
+        {item.text.split('\n').map((p, index) => {
+          return (
+            <p className="experience__text common-text" key={index}>
+              {p}
+            </p>
+          )
+        })}
       </li>
     )
   })

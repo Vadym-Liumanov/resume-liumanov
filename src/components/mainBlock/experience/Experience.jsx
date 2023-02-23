@@ -12,13 +12,21 @@ const Experience = ({ experience }) => {
         <h3 className="experience__subheader">{`${item.id}. ${item['itemHeader']['position']}`} | <span>{item['itemHeader']['company']}</span></h3>
         <p className="experience__pre-text">{item.itemSubHeader}</p>
 
-        {Object.keys(item.text).map((p) => {
+        {item.text.split('\n').map((p, index) => {
           return (
-            <p className="experience__text common-text" key={p}>
-              {item.text[p]}
+            <p className="experience__text common-text" key={index}>
+              {p}
             </p>
           )
         })}
+
+        {/* {item.text.split('\n').map((p) => {
+          return (
+            <p className="experience__text common-text" key={p}>
+            {item.text[p]}
+          </p>
+          )
+        }} */}
 
       </li>
     )

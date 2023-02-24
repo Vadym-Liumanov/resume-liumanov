@@ -125,7 +125,7 @@ body {
     position: relative;
 
     height: 25em;
-    padding: 0 20px 30px;
+    padding: 0 20px 36px;
 
     background-color: var(--content-bg-light);
     border-radius: 30px 30px 0 0;
@@ -141,7 +141,7 @@ body {
 
 .person__header {
     font-weight: 400;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     letter-spacing: 0.5px;
 }
 
@@ -155,7 +155,7 @@ body {
     background-color: var(--lightgrey);
     border-radius: 75px;
     padding: 4px 20px;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
 }
 
 .person__social {

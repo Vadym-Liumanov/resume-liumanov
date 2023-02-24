@@ -23,7 +23,7 @@ const languages = {
         },
         {
           id: "2",
-          skillName: "React.js"
+          skillName: "React"
         },
         {
           id: "3",
@@ -69,7 +69,7 @@ const languages = {
         },
         {
           id: "4",
-          skillName: "Comunication"
+          skillName: "Communication"
         },
         {
           id: "5",
@@ -77,11 +77,11 @@ const languages = {
         },
         {
           id: "6",
-          skillName: "Result thinking"
+          skillName: "Result-thinking"
         },
         {
           id: "7",
-          skillName: "Learn&Improve"
+          skillName: "Learn and Improve"
         },
         {
           id: "8",
@@ -106,7 +106,10 @@ const languages = {
 
     profile: {
       header: "Profile",
-      text: "I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects."
+      text: `As a Frontend Software Engineer with a passion for coding, 
+      I'm excited to contribute my skills to a company's projects and help 
+      troubleshoot complex problems. I am seeking a position where I can utilize 
+      my expertise in frontend development and ensure timely projects completion.`
     },
 
     experience: {
@@ -118,11 +121,11 @@ const languages = {
             position: "Frontend Developer",
             company: "Freelance"
           },
-          itemSubHeader: "March 2022 - up now",
-          text: `Creating responsive websites of various types.\n
-            Improvement of functionality and fixing bugs in customer's projects.\n
-            Debugging, refactoring and optimizing code.\n
-            Technologies: HTML5, CSS3, Scss, JavaScript, Git, React.JS, Redux, Redux-Thunk, Axios.`
+          itemSubHeader: "March 2022 - Present",
+          text: `Developed responsive websites for clients across various industries.\n
+          Enhanced websites functionality and resolved any technical issues or bugs.\n
+          Debugged, refactored, and optimized code for optimal performance.\n
+          Utilized a variety of technologies including HTML5, CSS3, Tailwind, JavaScript, Git, React, Redux and TypeScript.`
         },
 
         {
@@ -132,12 +135,10 @@ const languages = {
             company: "SysGears"
           },
           itemSubHeader: "September 2021 - February 2022",
-          text: `Designing responsive and cross-browser sites of varying complexity using HTML5, CSS3 and Javascript.\n
-            Development new product's client side.\n
-            SPA development with React.js, Redux, REST API, react-router.\n
-            Refactoring of  an existing code.\n
-            Collaboration with designers and developers.\n
-            Technologies: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios.`
+          text: `Designed responsive and cross-browser compatible websites for a range of clients.\n
+          Developed new client-side products and refactored an existing code.\n
+          Collaborated with designers and developers to ensure seamless project delivery.\n
+          Employed various technologies including HTML5, CSS3, SCSS AntDesign, JavaScript, React, Redux.`
         },
         {
           id: "3",
@@ -146,10 +147,10 @@ const languages = {
             company: "Freelance"
           },
           itemSubHeader: "October 2020 - August 2021",
-          text: `Creating responsive websites of various types: online stores, landing pages, catalogs, blogs.\n
-            Layout based on layouts using HTML, CSS, SCSS.\n
-            Developing Applications with React.JS using class and functional components.\n
-            Debugging in browser.`
+          text: `Created responsive websites, including online stores, landing pages, catalogs, and blogs.\n
+          Utilized HTML, CSS, and SCSS for website layout.\n
+          Developed applications using React, including class and functional components.\n
+          Debugged websites for optimal performance.`
         },
       ]
     },
@@ -159,17 +160,18 @@ const languages = {
       list: [
         {
           id: "1",
-          itemHeader: "Frontend developer courses",
+          itemHeader: "Frontend Developer Courses",
           itemSubHeader: "February 2020 - September 2020",
-          text: `Mastered technologies: HTML, CSS, SCSS, BEM, adaptive, responsive and cross-browser layout, JavaScript, React.js, Redux, Redux-thunk, TypeScript, Node.js, REST API, Git, debugging in browser.\n
-            Developed a multi-page social network site (non-commercial project) for communication between software developers. Technologies used: HTML/CSS; JavaScript/Typescript React.js, Redux, Redux-thunk REST API.`
+          text: `Completed an intensive program focused on frontend development technologies and methodologies.\n
+          Mastered technologies including HTML, CSS, SCSS, BEM, adaptive, responsive and cross-browser layout, JavaScript, React, Redux, Redux-thunk, TypeScript, Node, REST API, Git and debugging in browser.\n
+          Developed a non-commercial project, a multi-page social network site for communication between software developers using HTML, CSS, JavaScript, Typescript, React, Redux, Redux-thunk and REST API.`
         },
         {
           id: "2",
           itemHeader: "Eastern Ukrainian National University",
           itemSubHeader: "September 1998 - June 2002",
-          text: `Passed training at the university in the specialty of consumer electronic equipment.\n
-            Received a specialist’s degree in electronics with a GPA of 4.8.`
+          text: `Completed education in consumer electronic equipment.\n
+          Obtained a specialist degree in electronics with a GPA of 4.8.`
         },
       ]
     }
@@ -199,7 +201,7 @@ const languages = {
         },
         {
           id: "2",
-          skillName: "React.js"
+          skillName: "React"
         },
         {
           id: "3",
@@ -257,7 +259,7 @@ const languages = {
         },
         {
           id: "7",
-          skillName: "Обучаемость и совершенствование"
+          skillName: "Обучение и совершенствование"
         },
         {
           id: "8",
@@ -282,7 +284,9 @@ const languages = {
 
     profile: {
       header: "Профиль",
-      text: "Я увлеченный и внимательный к деталям инженер-программист, ищу работу в компании, чтобы использовать свои навыки в написании кода, решения сложных задач и оказания помощи в своевременном завершении проектов."
+      text: `Как фронтенд-программист со страстью к кодированию, я рад внести свой вклад 
+      в проекты компании и помочь в решении сложных задач. Я ищу должность, на которой cмог бы использовать 
+      свой опыт во фронтэнд разработке и обеспечивать своевременное завершение проектов.`
     },
 
     experience: {
@@ -295,10 +299,10 @@ const languages = {
             company: "Фриланс"
           },
           itemSubHeader: "Март 2022 - настоящее время",
-          text: `Создание адаптивных сайтов различных типов.\n
-            Доработка функционала и исправление багов в проектах заказчика.\n
-            Отладка, рефакторинг и оптимизация кода.\n
-            Технологии: HTML5, CSS3, Scss, JavaScript, Git, React.JS, Redux, Redux-Thunk, Axios.`
+          text: `Разработка адаптивных веб-сайт для клиентов из различных отраслей.\n
+          Расширение функциональности веб-сайтов, устранение технических проблем и ошибок.\n
+          Отладка, рефакторинг и оптимизация кода для обеспечения оптимальной производительности.\n
+          Технологии: HTML5, CSS3, Tailwind, JavaScript, Git, React, Redux и TypeScript.`
         },
 
         {
@@ -308,12 +312,10 @@ const languages = {
             company: "SysGears"
           },
           itemSubHeader: "Сентябрь 2021 - Февраль 2022",
-          text: `Верстка адаптивных и кросбраузерных сайтов разной сложности с использованием HTML5, CSS3 и Javascript.\n
-            Разработка клиентской части новых продуктов (React.js).\n
-            Разработка SPA на React.js, Redux, REST API, react-router.\n
-            Рефакторинг существующего кода.\n
-            Взаимодействие с дизайнерами и разработчиками.\n
-            Технологии: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios.`
+          text: `Разработка адаптивных и кросс-браузерных веб-сайтов для различных клиентов.\n
+          Разработка клиентской части новых продуктов и рефакторинг существующего кода.\n
+          Взаимодействие с дизайнерами и разработчиками для обеспечения бесперебойной реализации проекта.\n
+          Технологии: HTML5, CSS3, SCSS, AntDesign, JavaScript, React, Redux.`
         },
 
         {
@@ -323,10 +325,10 @@ const languages = {
             company: "Фриланс"
           },
           itemSubHeader: "Октябрь 2020 - Август 2021",
-          text: `Создание адаптивных сайтов различных типов: интернет-магазинов, лендингов, каталогов, блогов.\n
-            Верстка по макетам c использованием HTML, CSS, SCSS.\n
-            Разработка приложений на React.JS с использованием классовых и функциональных компонентов.\n
-            Отладка в браузере.`
+          text: `Создание адаптивных веб-сайтов различных типов: интернет-магазинов, лендингов, каталогов, блогов.\n
+          Верстка сайтов по макетам c использованием HTML, CSS, SCSS.\n
+          Разработка приложений на React с использованием классовых и функциональных компонентов.\n
+          Отладка работы сайтов для обеспечения оптимальной производительности.`
         },
       ]
     },
@@ -338,15 +340,18 @@ const languages = {
           id: "1",
           itemHeader: "Курсы фронтэнд разработчика",
           itemSubHeader: "Февраль 2020 - Сентябрь 2020",
-          text: `Освоил технологии: HTML, CSS, SCSS, BEM, адаптивная, отзывчивая и кроссбраузерная верстка, JavaScript, React.js, Redux, Redux-thunk, TypeScript, Node.js, REST API, Git, debugging in browser.\n
-            Разработал многостраничный сайт социальной сети (не коммерческий проект) для общения разработчиков программного обеспечения. Технологии: HTML/CSS; JavaScript/Typescript React.js, Redux, Redux-thunk REST API.`
+          text: `Прошел интенсивную программу обучения технологиям фронтенд-разработки.\n
+          Овладел технологиями: HTML, CSS, SCSS, BEM, адаптивная, отзывчивая и кроссбраузерная верстка,
+          JavaScript, React, Redux, Redux-thunk, TypeScript, Node, REST API, Git и debugging in browser.\n
+          Разработал некоммерческий проект, многостраничную социальную сеть для взаимодействия разработчиков программного обеспечения.
+          Технологии: HTML, CSS, JavaScript, Typescript, React, Redux, Redux-thunk и REST API.`
         },
         {
           id: "2",
           itemHeader: "Восточноукраинский национальный университет",
           itemSubHeader: "Сентябрь 1998 - Июнь 2002",
-          text: `Прошел обучение в университете по специальности бытовой электронной аппаратуры.\n
-            Получил диплом специалиста в области электроники со средним баллом 4.8.`
+          text: `Прошел обучение по специальности бытовой электронной аппаратуры.\n
+            Получил степень специалиста в области электронной аппаратуры со средним баллом 4.8.`
         },
       ]
     }

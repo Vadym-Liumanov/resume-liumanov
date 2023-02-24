@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/resume-liumanov/static/css/main.068fd5fa.css",
+    "main.js": "/resume-liumanov/static/js/main.e747f5db.js",
+    "static/media/photo.jpg": "/resume-liumanov/static/media/photo.c9692e31931c52764238.jpg",
+    "static/media/github.svg": "/resume-liumanov/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
+    "static/media/whatsapp.svg": "/resume-liumanov/static/media/whatsapp.421c4755b9f93ef0173ce89f5059ede0.svg",
+    "static/media/abstract_1.svg": "/resume-liumanov/static/media/abstract_1.7f932809f00d3966448f17e2d2e7b16b.svg",
+    "static/media/abstract_2.svg": "/resume-liumanov/static/media/abstract_2.cf0cf29b6e698caf2e6c82ee6e1d29da.svg",
+    "static/media/linkedin.svg": "/resume-liumanov/static/media/linkedin.b0940a58a62a635b9d78594d5366ab99.svg",
+    "static/media/instagram.svg": "/resume-liumanov/static/media/instagram.eb06e4b9b73a56f07ebb674ebf920417.svg",
+    "static/media/facebook.svg": "/resume-liumanov/static/media/facebook.3c6a3dd0ff66c9aec410f9b4dc444818.svg",
+    "static/media/telegram.svg": "/resume-liumanov/static/media/telegram.69f6c61fdcefdfa2fe9de85532d05bfa.svg",
+    "static/media/twitter.svg": "/resume-liumanov/static/media/twitter.017b1ec05e9518d358f6e2502f4fcd59.svg",
+    "index.html": "/resume-liumanov/index.html",
+    "static/media/email.svg": "/resume-liumanov/static/media/email.ac18a3aff0632c8db7a9db73adb89779.svg",
+    "static/media/phone.svg": "/resume-liumanov/static/media/phone.be95940dc8e2ece94d7977ddb7541c9a.svg",
+    "main.068fd5fa.css.map": "/resume-liumanov/static/css/main.068fd5fa.css.map",
+    "main.e747f5db.js.map": "/resume-liumanov/static/js/main.e747f5db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.068fd5fa.css",
+    "static/js/main.e747f5db.js"
+  ]
+}

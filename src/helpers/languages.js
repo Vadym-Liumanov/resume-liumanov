@@ -90,6 +90,20 @@ const languages = {
       ]
     },
 
+    languagesList: {
+      header: "Languages",
+      list: [
+        {
+          id: "1",
+          language: "Russian - Native"
+        },
+        {
+          id: "2",
+          language: "English - Intermediate B1"
+        },
+      ]
+    },
+
     profile: {
       header: "Profile",
       text: "I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects."
@@ -118,11 +132,11 @@ const languages = {
             company: "SysGears"
           },
           itemSubHeader: "September 2021 - February 2022",
-          text: `Designing responsive and cross-browser sites of varying complexity using HTML5, CSS3 and Javascript\n
-            Development new product's client side\n
-            SPA development with React.js, Redux, REST API, react-router\n
-            Refactoring of  an existing code\n
-            Collaboration with designers and developers\n
+          text: `Designing responsive and cross-browser sites of varying complexity using HTML5, CSS3 and Javascript.\n
+            Development new product's client side.\n
+            SPA development with React.js, Redux, REST API, react-router.\n
+            Refactoring of  an existing code.\n
+            Collaboration with designers and developers.\n
             Technologies: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios.`
         },
         {
@@ -132,9 +146,9 @@ const languages = {
             company: "Freelance"
           },
           itemSubHeader: "October 2020 - August 2021",
-          text: `Creating responsive websites of various types: online stores, landing pages, catalogs, blogs\n
+          text: `Creating responsive websites of various types: online stores, landing pages, catalogs, blogs.\n
             Layout based on layouts using HTML, CSS, SCSS.\n
-            Developing Applications with React.JS using class and functional components\n
+            Developing Applications with React.JS using class and functional components.\n
             Debugging in browser.`
         },
       ]
@@ -235,7 +249,7 @@ const languages = {
         },
         {
           id: "5",
-          skillName: "Самостоятельность"
+          skillName: "Самоорганизация"
         },
         {
           id: "6",
@@ -249,6 +263,20 @@ const languages = {
           id: "8",
           skillName: "Конструктивность"
         }
+      ]
+    },
+
+    languagesList: {
+      header: "Languages",
+      list: [
+        {
+          id: "1",
+          language: "Russian - Native"
+        },
+        {
+          id: "2",
+          language: "English - Intermediate B1"
+        },
       ]
     },
 
@@ -281,10 +309,10 @@ const languages = {
           },
           itemSubHeader: "Сентябрь 2021 - Февраль 2022",
           text: `Верстка адаптивных и кросбраузерных сайтов разной сложности с использованием HTML5, CSS3 и Javascript.\n
-            Разработка клиентской части новых продуктов (React.js)\n
-            Разработка SPA на React.js, Redux, REST API, react-router\n
-            Рефакторинг существующего кода\n
-            Сотрудничество с дизайнерами и разработчиками\n
+            Разработка клиентской части новых продуктов (React.js).\n
+            Разработка SPA на React.js, Redux, REST API, react-router.\n
+            Рефакторинг существующего кода.\n
+            Взаимодействие с дизайнерами и разработчиками.\n
             Технологии: HTML5, CSS3, Scss, AntDesign, JavaScript, Ajax, Git, React.JS, TypeScript, Redux, Redux-Thunk, Axios.`
         },
 
@@ -318,7 +346,7 @@ const languages = {
           itemHeader: "Восточноукраинский национальный университет",
           itemSubHeader: "Сентябрь 1998 - Июнь 2002",
           text: `Прошел обучение в университете по специальности бытовой электронной аппаратуры.\n
-            Получил степень специалиста в области электроники со средним баллом 4.8.`
+            Получил диплом специалиста в области электроники со средним баллом 4.8.`
         },
       ]
     }

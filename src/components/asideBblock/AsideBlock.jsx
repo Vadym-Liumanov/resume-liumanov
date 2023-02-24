@@ -5,8 +5,8 @@ import Person from "./person/Person"
 
 // import "./styles.css"
 
-const AsideBlock = ({ person, contacts, techSkills, softSkills }) => {
-  
+const AsideBlock = ({ person, contacts, techSkills, softSkills, languagesList }) => {
+
   return (
     <div className="aside-block column-container">
       <Person person={person} />
@@ -14,6 +14,7 @@ const AsideBlock = ({ person, contacts, techSkills, softSkills }) => {
         contacts={contacts}
         techSkills={techSkills}
         softSkills={softSkills}
+        languagesList={languagesList}
       />
     </div>
   )

@@ -6,13 +6,15 @@ import { email as emailIcon, phone as phoneIcon } from '../../../images/icons'
 
 // import "./styles.css"
 
-const About = ({ contacts, techSkills, softSkills }) => {
+const About = ({ contacts, techSkills, softSkills, languagesList }) => {
 
-  const techSkillsList = skillsOutput(techSkills.list)
-  const softSkillsList = skillsOutput(softSkills.list)
+  const techSkillsList = skillsOutput(techSkills.list, 'skillName')
+  const softSkillsList = skillsOutput(softSkills.list, 'skillName')
+  const renderedLanguagesList = skillsOutput(languagesList.list, 'language')
 
   return (
     <section className="about">
+
       <div className="about__contacts">
         <h4 className="about__header accented-header">{contacts.header}</h4>
         <div className="about__contacts-link">
@@ -24,22 +26,25 @@ const About = ({ contacts, techSkills, softSkills }) => {
           <a href="mailto:vliumanov@gmail.com">vliumanov@gmail.com</a>
         </div>
       </div>
+
       <div className="about__skills">
         <h4 className="about__header accented-header">{techSkills.header}</h4>
         <ul className="about__skills-list">
           {techSkillsList}
         </ul>
       </div>
+
       <div className="about__skills">
         <h4 className="about__header accented-header">{softSkills.header}</h4>
         <ol className="about__skills-list">
           {softSkillsList}
         </ol>
       </div>
+      
       <div className="about__skills">
-        <h4 className="about__header accented-header">{"Languages"}</h4>
+        <h4 className="about__header accented-header">{languagesList.header}</h4>
         <ul className="about__skills-list">
-          {techSkillsList}
+          {renderedLanguagesList}
         </ul>
       </div>
 

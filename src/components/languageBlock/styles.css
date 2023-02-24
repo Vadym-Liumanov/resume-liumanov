@@ -1,14 +1,38 @@
 .language-block {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   color: var(--lightblack);
+}
+
+@media (min-width: 479px) {
+  .language-block {
+    padding-right: 0.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .language-block {
+    padding-right: 2em;
+  }
 }
 
 .language-btn__en,
 .language-btn__ru {
   font-weight: 500;
   position: relative;
+
+  padding: 8px;
+  border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+
+  .language-btn__en,
+  .language-btn__ru {
+    background-color: rgb(255 255 255 / 80%);
+    color: var(--black);
+  }
 }
 
 .language-btn__en::after,
@@ -25,9 +49,9 @@
 }
 
 .language-btn__en::after {
-  left: 0.8em;
+  left: 1.4em;
 }
 
 .language-btn__ru::after {
-  right: 0.9em;
+  right: 1.4em;
 }

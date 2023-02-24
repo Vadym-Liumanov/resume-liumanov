@@ -28,8 +28,8 @@ export const listOutput = (list) => {
   })
 }
 
-export const skillsOutput = (skillsList) => skillsList.map((skill) => {
+export const skillsOutput = (skillsList, skillName) => skillsList.map((skill) => {
   return (
-    <li key={skill.id} className="about__skills-list-item">{skill.skillName}</li>
+    <li key={skill.id} className="about__skills-list-item">{skill[skillName]}</li>
   )
 })

@@ -99,7 +99,7 @@ const languages = {
         },
         {
           id: "2",
-          language: "English - Intermediate B1"
+          language: "English - B1 Intermediate"
         },
       ]
     },
@@ -267,15 +267,15 @@ const languages = {
     },
 
     languagesList: {
-      header: "Languages",
+      header: "Языки",
       list: [
         {
           id: "1",
-          language: "Russian - Native"
+          language: "Русский - Родной"
         },
         {
           id: "2",
-          language: "English - Intermediate B1"
+          language: "Английский - B1 Средний"
         },
       ]
     },

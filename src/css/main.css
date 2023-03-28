@@ -214,9 +214,9 @@ body {
     /* margin-left: 20px; */
 }
 
-ol.about__skills-list {
+/* ol.about__skills-list {
     list-style-position: inside;
-}
+} */
 
 .about__skills-list-item {
     color: var(--black);
@@ -224,6 +224,10 @@ ol.about__skills-list {
     font-size: 1.1em;
     margin-bottom: 0.8em;
 }
+
+/* CV download btn */
+
+
 
 /* Profile */
 

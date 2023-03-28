@@ -36,9 +36,9 @@ const About = ({ contacts, techSkills, softSkills, languagesList }) => {
 
       <div className="about__skills">
         <h4 className="about__header accented-header">{softSkills.header}</h4>
-        <ol className="about__skills-list">
+        <ul className="about__skills-list">
           {softSkillsList}
-        </ol>
+        </ul>
       </div>
       
       <div className="about__skills">

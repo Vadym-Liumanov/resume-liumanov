@@ -2,7 +2,7 @@ import React from "react"
 
 import { skillsOutput } from "../../../utils/renderTextArr"
 
-import { email as emailIcon, phone as phoneIcon } from '../../../images/icons'
+import { email as emailIcon, phone as phoneIcon, download as downloadIcon } from '../../../images/icons'
 
 // import "./styles.css"
 
@@ -40,12 +40,24 @@ const About = ({ contacts, techSkills, softSkills, languagesList }) => {
           {softSkillsList}
         </ul>
       </div>
-      
+
       <div className="about__skills">
         <h4 className="about__header accented-header">{languagesList.header}</h4>
         <ul className="about__skills-list">
           {renderedLanguagesList}
         </ul>
+      </div>
+
+      <div className="about__cv">
+        <a
+          href="#"
+          download
+          target="_blank"
+          className="about__cv-btn"
+        >
+          <img src={downloadIcon} alt="download CV" />
+          Download CV
+        </a>
       </div>
 
     </section>

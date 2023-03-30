@@ -4,13 +4,18 @@ import { skillsOutput } from "../../../utils/renderTextArr"
 
 import { email as emailIcon, phone as phoneIcon, download as downloadIcon } from '../../../images/icons'
 
-// import "./styles.css"
+import engCV from '../../../files/cv_eng.pdf'
+import rusCV from '../../../files/cv_rus.pdf'
 
-const About = ({ contacts, techSkills, softSkills, languagesList }) => {
-
+const About = ({ contacts, techSkills, softSkills, languagesList, downloadCvBtnText, lng }) => {
   const techSkillsList = skillsOutput(techSkills.list, 'skillName')
   const softSkillsList = skillsOutput(softSkills.list, 'skillName')
   const renderedLanguagesList = skillsOutput(languagesList.list, 'language')
+
+  const actualCV = lng === 'en' ? engCV : rusCV
+  const suggestedFileName = lng === 'en'
+    ? 'liumanov_cv_eng'
+    : 'liumanov_cv_rus'
 
   return (
     <section className="about">
@@ -50,13 +55,14 @@ const About = ({ contacts, techSkills, softSkills, languagesList }) => {
 
       <div className="about__cv">
         <a
-          href="#"
-          download
+          href={actualCV}
+          download={suggestedFileName}
           target="_blank"
           className="about__cv-btn"
+          rel="noreferrer"
         >
           <img src={downloadIcon} alt="download CV" />
-          Download CV
+          {downloadCvBtnText}
         </a>
       </div>
 

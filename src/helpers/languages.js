@@ -104,6 +104,8 @@ const languages = {
       ]
     },
 
+    downloadCvBtnText: "Download CV",
+
     profile: {
       header: "Profile",
       text: `As a Frontend Software Engineer with a passion for coding, 
@@ -281,6 +283,8 @@ const languages = {
         },
       ]
     },
+
+    downloadCvBtnText: "Скачать CV",
 
     profile: {
       header: "Профиль",

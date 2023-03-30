@@ -24,7 +24,7 @@ const Main = () => {
     setLngData(() => languages[lng])
   }, [lng])
 
-  const { person, contacts, techSkills, softSkills, languagesList, profile, experience, education } = lngData
+  const { person, contacts, techSkills, softSkills, languagesList, downloadCvBtnText, profile, experience, education } = lngData
   
   return (
     <>
@@ -43,6 +43,8 @@ const Main = () => {
             techSkills={techSkills}
             softSkills={softSkills}
             languagesList={languagesList}
+            lng={lng}
+            downloadCvBtnText={downloadCvBtnText}
           />
           <MainBlock
             profile={profile}

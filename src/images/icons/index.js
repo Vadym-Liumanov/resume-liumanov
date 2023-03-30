@@ -8,4 +8,3 @@ export { default as github } from "./github.svg"
 export { default as telegram } from "./telegram.svg"
 export { default as whatsapp } from "./whatsapp.svg"
 export { default as download } from "./download.svg"
-

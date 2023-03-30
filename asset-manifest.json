@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/resume-liumanov/static/css/main.e2169f2f.css",
+    "main.js": "/resume-liumanov/static/js/main.0a7e95e4.js",
+    "static/media/cv_rus.pdf": "/resume-liumanov/static/media/cv_rus.109c0903cc821f6cd920.pdf",
+    "static/media/cv_eng.pdf": "/resume-liumanov/static/media/cv_eng.556dc0adf38706a9a30f.pdf",
+    "static/media/photo.jpg": "/resume-liumanov/static/media/photo.442cf69ea3af3eaa5a40.jpg",
+    "static/media/github.svg": "/resume-liumanov/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
+    "static/media/whatsapp.svg": "/resume-liumanov/static/media/whatsapp.297dec15c79f370b2a2ab39c4b0a09c6.svg",
+    "static/media/abstract_1.svg": "/resume-liumanov/static/media/abstract_1.12b51abd326bc04e11f4a8868c63e168.svg",
+    "static/media/abstract_2.svg": "/resume-liumanov/static/media/abstract_2.2ef0be371156250ff957871b7681d681.svg",
+    "static/media/linkedin.svg": "/resume-liumanov/static/media/linkedin.8044b462ca6e7fd5da8e912c3376899a.svg",
+    "static/media/instagram.svg": "/resume-liumanov/static/media/instagram.eb9baf0301d32e38dbec898c9e69d4d7.svg",
+    "static/media/download.svg": "/resume-liumanov/static/media/download.82a5eea02a8015d50cd4e28f91dc7334.svg",
+    "static/media/facebook.svg": "/resume-liumanov/static/media/facebook.4030168684087ad2288e0f88e8a7f5e8.svg",
+    "static/media/telegram.svg": "/resume-liumanov/static/media/telegram.7f4ec714d4a1b859f55248e72db6139e.svg",
+    "static/media/twitter.svg": "/resume-liumanov/static/media/twitter.e28571c6eb3396f4bac992564b7d3466.svg",
+    "index.html": "/resume-liumanov/index.html",
+    "static/media/email.svg": "/resume-liumanov/static/media/email.6b72ae5096aa871d2483eb50b579130a.svg",
+    "static/media/phone.svg": "/resume-liumanov/static/media/phone.bd5ff596e04e963697defdfba5c02b06.svg",
+    "main.e2169f2f.css.map": "/resume-liumanov/static/css/main.e2169f2f.css.map",
+    "main.0a7e95e4.js.map": "/resume-liumanov/static/js/main.0a7e95e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2169f2f.css",
+    "static/js/main.0a7e95e4.js"
+  ]
+}

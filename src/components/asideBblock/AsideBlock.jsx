@@ -8,7 +8,7 @@ import Person from "./person/Person"
 const AsideBlock = ({ person, contacts, techSkills, softSkills, languagesList, downloadCvBtnText, lng }) => {
 
   return (
-    <div className="aside-block column-container">
+    <aside className="aside">
       <Person person={person} />
       <About
         contacts={contacts}
@@ -18,7 +18,7 @@ const AsideBlock = ({ person, contacts, techSkills, softSkills, languagesList, d
         lng={lng}
         downloadCvBtnText={downloadCvBtnText}
       />
-    </div>
+    </aside>
   )
 }
 

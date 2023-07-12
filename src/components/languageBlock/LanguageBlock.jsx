@@ -4,8 +4,8 @@ import "./styles.css"
 
 const LanguageBlock = ({ toggleLng, lng }) => {
 
-  const btnClassEn = "language-btn__en"
-  const btnClassRu = "language-btn__ru"
+  const btnClassEn = "language-block__btn language-block__btn_en"
+  const btnClassRu = "language-block__btn language-block__btn_ru"
   const btnClass = lng === 'en' ? btnClassEn : btnClassRu
 
   return (

@@ -22,9 +22,11 @@ const Person = ({ person }) => {
 
   return (
     <section className="person">
-      <img className="person__photo" src={personPhoto} alt="frontend developer" />
+      <div className="person__img">
+        <img src={personPhoto} alt="frontend developer" />
+      </div>
       <h3 className="person__header primary-header">{name.firstName} <span>{name.secondName}</span></h3>
-      <span className="person__label">{jobTitle}</span>
+      <h1 className="person__label">{jobTitle}</h1>
       <div className="person__social">
         {socials}
       </div>

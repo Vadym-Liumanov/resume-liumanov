@@ -4,6 +4,7 @@ import LanguageBlock from "../../components/languageBlock/LanguageBlock"
 import MainBlock from "../../components/mainBlock/MainBlock"
 
 import { useLocalStorage } from "../../utils/useLocalStorage"
+import { useResize } from "../../utils/useResize"
 
 import languages from "../../helpers/languages"
 
@@ -26,9 +27,17 @@ const Main = () => {
     setLngData(() => languages[lng])
   }, [lng])
 
+  // Определяем ширину viewport для организации спойлеров.
+  // Примем width < 576px для реализации спойлеров.
+  // Используем кастомный хук useResize
+  const widthLimit = 576
+
+  const { width, isScreenSmall } = useResize(widthLimit)
+  console.log(width, '===', isScreenSmall)
+
   // Декомпозицией выделяем необходимые ветки данных
   const { person, contacts, techSkills, softSkills, languagesList, downloadCvBtnText, profile, experience, education } = lngData
-  
+
   return (
     <>
       <div className="wrapper">

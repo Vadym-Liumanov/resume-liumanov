@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume-liumanov/static/css/main.931edfc2.css",
+    "main.css": "/resume-liumanov/static/css/main.d78c9dbd.css",
     "main.js": "/resume-liumanov/static/js/main.08b0d197.js",
     "static/media/cv_rus.pdf": "/resume-liumanov/static/media/cv_rus.109c0903cc821f6cd920.pdf",
     "static/media/cv_eng.pdf": "/resume-liumanov/static/media/cv_eng.556dc0adf38706a9a30f.pdf",
@@ -16,11 +16,11 @@
     "index.html": "/resume-liumanov/index.html",
     "static/media/email.svg": "/resume-liumanov/static/media/email.6b72ae5096aa871d2483eb50b579130a.svg",
     "static/media/phone.svg": "/resume-liumanov/static/media/phone.bd5ff596e04e963697defdfba5c02b06.svg",
-    "main.931edfc2.css.map": "/resume-liumanov/static/css/main.931edfc2.css.map",
+    "main.d78c9dbd.css.map": "/resume-liumanov/static/css/main.d78c9dbd.css.map",
     "main.08b0d197.js.map": "/resume-liumanov/static/js/main.08b0d197.js.map"
   },
   "entrypoints": [
-    "static/css/main.931edfc2.css",
+    "static/css/main.d78c9dbd.css",
     "static/js/main.08b0d197.js"
   ]
 }

@@ -68,7 +68,7 @@
 
 .info-block__title.spoiler-mode:hover {
   cursor: pointer;
-  background-color: #999;
+  background-color: #efefef;
   border-radius: 10px;
 }
 

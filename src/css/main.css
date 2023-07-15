@@ -36,7 +36,7 @@ body {
 body {
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--primary-text-color);
     background-color: var(--grey);
     /* background-color: #333; */
@@ -140,10 +140,10 @@ body {
 .person__label {
     font-weight: 500;
     font-size: 1.2em;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.3px;
     background-color: var(--lightgrey);
     border-radius: 75px;
-    padding: 4px 16px;
+    padding: 0.6em 1.2em;
     margin-bottom: 2.5em;
 }
 
@@ -200,7 +200,7 @@ body {
     color: var(--black);
     font-weight: 500;
     font-size: 1.1em;
-    margin-bottom: 0.4em;
+    line-height: 1.7;
 }
 
 /* CV download btn */
@@ -325,7 +325,7 @@ p.experience__text.common-text+p.experience__text.common-text {
     }
 
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 

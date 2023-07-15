@@ -1,11 +1,11 @@
 import React from "react"
-import About from "./about/About"
 
+import About from "./about/About"
 import Person from "./person/Person"
 
-// import "./styles.css"
-
-const AsideBlock = ({ person, contacts, techSkills, softSkills, languagesList, downloadCvBtnText, lng }) => {
+// Боковой блок
+const AsideBlock = ({ person, contacts, techSkills, softSkills,
+  languagesList, downloadCvBtnText, lng, isScreenSmall }) => {
 
   return (
     <aside className="aside">
@@ -17,6 +17,7 @@ const AsideBlock = ({ person, contacts, techSkills, softSkills, languagesList, d
         languagesList={languagesList}
         lng={lng}
         downloadCvBtnText={downloadCvBtnText}
+        isScreenSmall={isScreenSmall}
       />
     </aside>
   )

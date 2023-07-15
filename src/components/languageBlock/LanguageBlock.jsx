@@ -1,7 +1,7 @@
 import React from "react"
-
 import "./styles.css"
 
+// Компонент переключения языковой локализации
 const LanguageBlock = ({ toggleLng, lng }) => {
 
   const btnClassEn = "language-block__btn language-block__btn_en"

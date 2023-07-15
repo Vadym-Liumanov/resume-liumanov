@@ -1,16 +1,23 @@
 import React, { useEffect, useState } from "react"
+
+// Компоненты
 import AsideBlock from "../../components/asideBblock/AsideBlock"
 import LanguageBlock from "../../components/languageBlock/LanguageBlock"
 import MainBlock from "../../components/mainBlock/MainBlock"
 
-import { useLocalStorage } from "../../utils/useLocalStorage"
-import { useResize } from "../../utils/useResize"
+// Кастомные хуки:
+// Для хранения языковых настроек eng | ru
+import { useLocalStorage } from "../../hooks/useLocalStorage"
+// Для отслеживания ширины viewport
+import { useResize } from "../../hooks/useResize"
 
+// Хардовая база с текстом контента на 2 языках
 import languages from "../../helpers/languages"
 
 const Main = () => {
   // Определяемся с языковой локализацией.
-  // Если в local storage нет ключа 'language', то он создастся с дефолтным значением 'en'
+  // Если в local storage нет ключа 'language', то он создастся с дефолтным значением 'en',
+  // в прот. случае возьмет значение ключа из хранилища
   const [lng, setLng] = useLocalStorage('language', 'en')
 
   // Задаем состояние текстового контента (может быть или на русском, или на английском)
@@ -28,15 +35,18 @@ const Main = () => {
   }, [lng])
 
   // Определяем ширину viewport для организации спойлеров.
-  // Примем width < 576px для реализации спойлеров.
-  // Используем кастомный хук useResize
+  // Примем width < 576px для реализации спойлеров
+  // Используем кастомный хук useResize - выдает ширину viewport и является ли она меньше widthLimit для
+  // реализации спойлеров 
   const widthLimit = 576
 
-  const { width, isScreenSmall } = useResize(widthLimit)
-  console.log(width, '===', isScreenSmall)
+  const { isScreenSmall } = useResize(widthLimit)
 
-  // Декомпозицией выделяем необходимые ветки данных
-  const { person, contacts, techSkills, softSkills, languagesList, downloadCvBtnText, profile, experience, education } = lngData
+  // isScreenSmall передадим в пропсах для отрисовки информационных блоков в виде спойлеров (true) или как есть (false)
+
+  // Декомпозицией выделяем необходимые ветки данных из базы контента
+  const { person, contacts, techSkills, softSkills, languagesList,
+    downloadCvBtnText, profile, experience, education } = lngData
 
   return (
     <>
@@ -55,11 +65,13 @@ const Main = () => {
             languagesList={languagesList}
             lng={lng}
             downloadCvBtnText={downloadCvBtnText}
+            isScreenSmall={isScreenSmall}
           />
           <MainBlock
             profile={profile}
             experience={experience}
             education={education}
+            isScreenSmall={isScreenSmall}
           />
         </div>
 

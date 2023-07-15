@@ -1,21 +1,16 @@
 import React from "react"
 
-import { listOutput } from "../../../utils/renderTextArr"
+import ExperienceList from "../../common/ExperienceList/ExperienceList"
 
-// import "./styles.css"
-
-const Experience = ({ experience }) => {
+// Компонент опыта работы
+const Experience = ({ experience, isScreenSmall }) => {
 
   const { header, list } = experience
-
-  const experienceList = listOutput(list)
 
   return (
     <section className="experience">
       <h2 className="experience__header primary-header">{header}</h2>
-      <ol className="experience__list">
-        {experienceList}
-      </ol>
+      <ExperienceList list={list} isScreenSmall={isScreenSmall} />
     </section>
   )
 }

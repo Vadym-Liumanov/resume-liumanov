@@ -4,11 +4,9 @@ import SocialItem from "./socialItem/SocialItem"
 import { socialList } from "../../../helpers/socialList"
 import personPhoto from '../../../images/photo.jpg'
 
-// import "./styles.css"
-
 const Person = ({ person }) => {
   const { name, jobTitle } = person
-
+  // Создаем массив социальных иконок для рендера внутри компонента
   const socials = socialList.map((item) => {
     return (
       <SocialItem

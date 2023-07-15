@@ -1,7 +1,7 @@
 import React from "react"
 
-// import "./styles.css"
-
+// Компонент элемента для блока социальных ссылок
+// Включает ссылку и иконку
 const SocialItem = ({ link, src, name }) => {
   return (
     <a href={link} target="_blanc">

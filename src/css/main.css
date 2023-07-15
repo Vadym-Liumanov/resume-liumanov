@@ -37,7 +37,6 @@ body {
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.4;
     color: var(--primary-text-color);
     background-color: var(--grey);
     /* background-color: #333; */
@@ -76,6 +75,10 @@ body {
     background-color: var(--content-bg-grey);
 }
 
+.profile__header {
+    margin-left: 0.6em;
+}
+
 .primary-header {
     font-weight: 700;
     font-size: 1.8em;
@@ -83,7 +86,8 @@ body {
 
 .accented-header {
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.3em;
+    line-height: 1.2;
     color: var(--accent);
 }
 
@@ -150,6 +154,10 @@ body {
     column-gap: 16px;
 }
 
+.person__social a:hover {
+    opacity: 0.9;
+}
+
 .person__social img {
     width: 30px;
     height: 30px;
@@ -170,10 +178,6 @@ body {
     margin: 0 auto;
     background-color: var(--lightgrey);
     border-radius: 0 0 30px 30px;
-}
-
-.about__header {
-    margin-bottom: 0.6em;
 }
 
 .about__contacts-link {
@@ -202,7 +206,7 @@ body {
 /* CV download btn */
 
 .about__cv {
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 3em;
 }
 
@@ -233,6 +237,8 @@ body {
     width: 1.2em;
     margin-right: 0.4em;
 }
+
+/* Main */
 
 .main {
     border-radius: 30px;
@@ -270,8 +276,13 @@ body {
     padding: 30px;
 }
 
+.experience {
+    margin-bottom: 3.2em;
+}
+
 .experience__header {
     margin-bottom: 0.8em;
+    margin-left: 0.6em;
 }
 
 .experience__list {
@@ -284,7 +295,6 @@ body {
 
 .experience__subheader {
     font-weight: 600;
-    margin-bottom: 0.2em;
 }
 
 .experience__subheader span {
@@ -297,18 +307,29 @@ body {
 
 .experience__pre-text {
     font-weight: 500;
-    margin-bottom: 1em;
+}
+
+p.experience__text.common-text+p.experience__text.common-text {
+    margin-top: 0.6em;
 }
 
 /* Media queries */
 
+@media (max-width: 1100px) {
+    .about__container {
+        row-gap: 1em;
+    }
 
+    .experience__list-item {
+        margin-bottom: 1.6em;
+    }
 
-@media (max-width: 767px) {
     body {
         font-size: 14px;
     }
+}
 
+@media (max-width: 767px) {
     .main-row {
         display: grid;
         grid-template-columns: 1fr;
@@ -331,19 +352,39 @@ body {
         width: 260px;
         padding-bottom: 260px;
     }
+
+    .experience {
+        margin-bottom: 2.4em;
+    }
 }
 
 @media (max-width: 467px) {
     .wrapper {
         width: 100%;
-        margin:0 auto;
+        margin: 0 auto;
         padding: 0 0.8em 0.8em;
     }
+
     .person__img {
         width: 230px;
         padding-bottom: 230px;
     }
+
     .exp-and-edu-block {
         padding: 30px 20px 10px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .experience__text {
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 567px) {
+    .about__cv {
+        margin-left: 1em;
     }
 }

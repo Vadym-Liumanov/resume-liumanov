@@ -1,17 +1,17 @@
 import React from "react"
+
+// Компоненты
 import Education from "./education/Education"
 import Experience from "./experience/Experience"
 import Profile from "./profile/Profile"
 
-// import "./styles.css"
-
-const MainBlock = ({ profile, experience, education }) => {
+const MainBlock = ({ profile, experience, education, isScreenSmall }) => {
   return (
     <main className="main">
       <Profile profile={profile} />
       <section className="exp-and-edu-block">
-        <Experience experience={experience} />
-        <Education education={education} />
+        <Experience experience={experience} isScreenSmall={isScreenSmall} />
+        <Education education={education} isScreenSmall={isScreenSmall} />
       </section>
     </main>
   )

@@ -1,7 +1,6 @@
 import React from "react"
 
-// import "./styles.css"
-
+// Компонент профиля - обычная текстовая инфа в оригинальном (не шаблонном) виде
 const Profile = ({ profile }) => {
 
   return (
